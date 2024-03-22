@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #DD591F, rgb(88,22,208));
+    height: 100vh; /* Establece el cuerpo para que ocupe el 100% de la altura de la ventana del navegador */
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.7); /* Fondo semi-transparente */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Sombra */
+    max-width: 600px; /* Establece un ancho máximo para el contenedor para mantenerlo legible */
+}
+
+h1 {
+    text-align: center;
+}
+
+.address, .contact {
+    margin-bottom: 20px;
+}
+
+.address p, .contact p {
+    margin: 5px 0;
+    line-height: 1.5;
+    font-size: 18px;
+}
